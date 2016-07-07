@@ -36,16 +36,22 @@ namespace PruebaIsaacC
 
         private void button1_Click(object sender, EventArgs e)
         {
-;
-            using (var dbCtx = new mydbContext())
+
+            try
             {
-             
-            estudiante nuevoe = new estudiante();
-            nuevoe.Nombre = textBox1.Text;
-                dbCtx.estudiantes.Add(nuevoe);
-                //dbCtx.Entry(new estudianteMap()).State = System.Data.Entity.EntityState.Added;
-              
-                dbCtx.SaveChanges();
+                using (var dbCtx = new mydbContext())
+                {
+
+                    estudiante nuevoe = new estudiante();
+                    nuevoe.Nombre = textBox1.Text;
+                    dbCtx.estudiantes.Add(nuevoe);
+                    //dbCtx.Entry(new estudianteMap()).State = System.Data.Entity.EntityState.Added;
+
+                    dbCtx.SaveChanges();
+                }
+            }
+            catch (Exception err) {
+            
             }
         }
     }
