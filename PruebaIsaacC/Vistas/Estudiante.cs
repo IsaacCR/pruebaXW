@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using PruebaIsaacC.Models;
+using PruebaIsaacC.Models.Mapping;
 namespace PruebaIsaacC
 {
     public partial class Estudiante : Form
@@ -31,6 +32,21 @@ namespace PruebaIsaacC
         {
             Asignacion formularioAsingacion = new Asignacion();
             formularioAsingacion.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            estudiante nuevoe = new estudiante();
+            nuevoe.Nombre = textBox1.Text;
+            using (var dbCtx = new mydbContext())
+            {
+             
+                dbCtx.estudiantes.Add(nuevoe);
+                //dbCtx.Entry(new estudianteMap()).State = System.Data.Entity.EntityState.Added;
+              
+                dbCtx.SaveChanges();
+            }
         }
     }
 }
