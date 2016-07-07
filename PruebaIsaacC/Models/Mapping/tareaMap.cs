@@ -15,6 +15,7 @@ namespace PruebaIsaacC.Models.Mapping
             this.ToTable("tarea", "mydb");
             this.Property(t => t.idTarea).HasColumnName("idTarea");
             this.Property(t => t.Nota).HasColumnName("Nota");
+            this.Property(t => t.Nota).HasColumnName("Tipo");
             this.Property(t => t.Curso_idCurso).HasColumnName("Curso_idCurso");
 
             // Relationships
