@@ -8,5 +8,6 @@ namespace PruebaIsaacC
 {
     class Asignaciones
     {
+
     }
 }

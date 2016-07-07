@@ -84,53 +84,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Asignacion.cs">
+    <Compile Include="Vistas\Asignacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Asignacion.Designer.cs">
+    <Compile Include="Vistas\Asignacion.Designer.cs">
       <DependentUpon>Asignacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Asignaciones.cs" />
+    <Compile Include="Controladores\Asignaciones.cs" />
     <Compile Include="conexionmysql.cs" />
-    <Compile Include="Curso.cs">
+    <Compile Include="Vistas\Curso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Curso.Designer.cs">
+    <Compile Include="Vistas\Curso.Designer.cs">
       <DependentUpon>Curso.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cursos.cs" />
-    <Compile Include="Estudiante.cs">
+    <Compile Include="Controladores\Cursos.cs" />
+    <Compile Include="Vistas\Estudiante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estudiante.Designer.cs">
+    <Compile Include="Vistas\Estudiante.Designer.cs">
       <DependentUpon>Estudiante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estudiantes.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Controladores\Estudiantes.cs" />
+    <Compile Include="Vistas\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Vistas\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Controladores\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tarea.cs">
+    <Compile Include="Vistas\Tarea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarea.Designer.cs">
+    <Compile Include="Vistas\Tarea.Designer.cs">
       <DependentUpon>Tarea.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tareas.cs" />
-    <EmbeddedResource Include="Asignacion.resx">
+    <Compile Include="Controladores\Tareas.cs" />
+    <EmbeddedResource Include="Vistas\Asignacion.resx">
       <DependentUpon>Asignacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Curso.resx">
+    <EmbeddedResource Include="Vistas\Curso.resx">
       <DependentUpon>Curso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Estudiante.resx">
+    <EmbeddedResource Include="Vistas\Estudiante.resx">
       <DependentUpon>Estudiante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Vistas\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -142,7 +142,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Tarea.resx">
+    <EmbeddedResource Include="Vistas\Tarea.resx">
       <DependentUpon>Tarea.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="CodeTemplates\ReverseEngineerCodeFirst\Context.tt" />
