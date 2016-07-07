@@ -98,6 +98,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Asignacion.resx">
+      <DependentUpon>Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estudiante.resx">
       <DependentUpon>Estudiante.cs</DependentUpon>
     </EmbeddedResource>
