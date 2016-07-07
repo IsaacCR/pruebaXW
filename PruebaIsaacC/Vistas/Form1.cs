@@ -30,5 +30,11 @@ namespace PruebaIsaacC
             Estudiante formularioEst = new Estudiante();
             formularioEst.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Curso formCurso = new Curso();
+            formCurso.Show();
+        }
     }
 }
