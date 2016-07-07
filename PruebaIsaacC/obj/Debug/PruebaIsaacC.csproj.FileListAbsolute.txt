@@ -44,3 +44,6 @@ I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\Pr
 I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.Form1.resources
 I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.Properties.Resources.resources
 I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.csproj.GenerateResource.Cache
+I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.Asignacion.resources
+I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.Curso.resources
+I:\Users\ISCPC\Desktop\ejercicio1\Entrevista\PruebasXW\PruebaIsaacC\obj\Debug\PruebaIsaacC.Tarea.resources

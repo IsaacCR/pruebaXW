@@ -98,8 +98,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea.Designer.cs">
+      <DependentUpon>Tarea.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Asignacion.resx">
       <DependentUpon>Asignacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Curso.resx">
+      <DependentUpon>Curso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Estudiante.resx">
       <DependentUpon>Estudiante.cs</DependentUpon>
@@ -116,6 +125,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tarea.resx">
+      <DependentUpon>Tarea.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="CodeTemplates\ReverseEngineerCodeFirst\Context.tt" />
     <None Include="CodeTemplates\ReverseEngineerCodeFirst\Entity.tt" />
     <None Include="CodeTemplates\ReverseEngineerCodeFirst\Mapping.tt" />

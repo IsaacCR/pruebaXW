@@ -59,6 +59,7 @@
             this.Gurdar.TabIndex = 2;
             this.Gurdar.Text = "Guardar";
             this.Gurdar.UseVisualStyleBackColor = true;
+            this.Gurdar.Click += new System.EventHandler(this.Gurdar_Click);
             // 
             // Asignacion
             // 

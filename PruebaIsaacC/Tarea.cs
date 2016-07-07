@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PruebaIsaacC
 {
-    public partial class Curso : Form
+    public partial class Tarea : Form
     {
-        public Curso()
+        public Tarea()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Tarea formTarea = new Tarea();
-            formTarea.Show();
         }
     }
 }

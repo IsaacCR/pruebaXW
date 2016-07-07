@@ -28,5 +28,10 @@ namespace PruebaIsaacC
         {
 
         }
+
+        private void Gurdar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
